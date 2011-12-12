@@ -10,7 +10,7 @@ namespace Mpdreamz.NL.Modules
 	{
 		public HomeModule()
 		{
-			Get["/"] = parameters => "Hello World";
+			Get["/"] = parameters => "Mpdreamz.nl";
 		}
 	}
 }
